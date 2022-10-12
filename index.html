@@ -4,8 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>技术经验分享</title>
+  <style type="text/css">
+    .home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .content {
+      flex-grow: 1;
+    }
+    .bottom {
+      flex-grow: 0;
+      height: 100px;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <p>技术经验分享 已搬家至 <a href="https://blog.uvdog.com">https://blog.uvdog.com</a></p>
+  <div class="home">
+    <p class="content">技术经验分享</p>
+    <p class="bottom"><span>浙ICP备18009234号-1</span></p>
+  </div>
 </body>
 </html>
